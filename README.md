@@ -23,11 +23,15 @@ JavaScript (Vanilla JS)
 
 
 Project Structure
+
 calculator-app/
-│
-├── index.html      # Main structure
-├── style.css       # Styling
-└── script.js       # Logic
+
+
+index.html      # Main structure
+
+style.css       # Styling
+
+script.js       # Logic
 
 
  Keyboard Controls
