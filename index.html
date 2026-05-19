@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
   <title>Basic Calculator</title>
 
   <!-- External CSS -->
@@ -11,10 +12,19 @@
 
 <body>
 
+  <!-- App Wrapper -->
   <div class="calculator">
 
+    <!-- App Header (uses "env-like" config later in JS) -->
+    <div class="app-header">
+      <h2 id="appTitle">Calculator</h2>
+      <small id="appVersion"></small>
+    </div>
+
+    <!-- Display -->
     <input type="text" class="display" id="display" readonly>
 
+    <!-- Buttons -->
     <div class="buttons">
 
       <button class="clear" onclick="clearDisplay()">C</button>
@@ -43,6 +53,8 @@
 
   </div>
 
+  <!-- Scripts (IMPORTANT ORDER) -->
+  <script src="config.js"></script>
   <script src="script.js"></script>
 
 </body>
